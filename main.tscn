@@ -1,10 +1,7 @@
 [gd_scene format=3 uid="uid://rnvwtdrmpa6t"]
 
-[ext_resource type="PackedScene" uid="uid://cd1rbev2bykos" path="res://MainLevel.tscn" id="1_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://ce63x6kpyhw1e" path="res://player.tscn" id="2_h2yge"]
 
 [node name="Node2D" type="Node2D" unique_id=551583978]
 
-[node name="TileMapLayer" parent="." unique_id=1725179975 instance=ExtResource("1_0xm2m")]
-
-[node name="CharacterBody2D" parent="TileMapLayer" unique_id=785613569 instance=ExtResource("2_h2yge")]
+[node name="Player" parent="." unique_id=785613569 instance=ExtResource("2_h2yge")]
