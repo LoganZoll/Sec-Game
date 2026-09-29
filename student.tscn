@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://5egak3nu5iul"]
+
+[ext_resource type="Texture2D" uid="uid://c2pbvbidb77a7" path="res://icon.svg" id="1_8bc1h"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n2hm0"]
+size = Vector2(64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_n2hm0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_8bc1h")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Student" type="CharacterBody2D" unique_id=385018977]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1748568432]
+shape = SubResource("RectangleShape2D_n2hm0")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=349967535]
+sprite_frames = SubResource("SpriteFrames_n2hm0")
+
+[node name="Modules" type="Node" parent="." unique_id=1133984174]
+
+[node name="Movement" type="Node" parent="Modules" unique_id=385188830]
