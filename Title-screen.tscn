@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://0sbn1ldufbuc"]
+
+[ext_resource type="Script" uid="uid://bnetowcl7cg16" path="res://QuitButton.cs" id="1_5r3tv"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_momyi"]
+
+[node name="TileMapLayer" type="TileMapLayer" unique_id=966632633]
+
+[node name="StartButton" type="Button" parent="." unique_id=1353123800]
+offset_left = 439.0
+offset_top = 415.0
+offset_right = 699.0
+offset_bottom = 466.0
+text = "Start"
+icon = SubResource("ViewportTexture_momyi")
+
+[node name="OptionsButton" type="Button" parent="." unique_id=1243978403]
+offset_left = 439.0
+offset_top = 487.0
+offset_right = 699.0
+offset_bottom = 538.0
+text = "Options"
+icon = SubResource("ViewportTexture_momyi")
+
+[node name="QuitButton" type="Button" parent="." unique_id=1743421211]
+offset_left = 439.0
+offset_top = 559.0
+offset_right = 699.0
+offset_bottom = 610.0
+text = "Quit
+"
+icon = SubResource("ViewportTexture_momyi")
+script = ExtResource("1_5r3tv")
