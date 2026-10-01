@@ -1,3 +1,6 @@
+<img width="364" height="378" alt="Malware_Catalog-removebg-crop" src="https://github.com/user-attachments/assets/ef4f8944-1e1d-40bc-acb5-c58486002d82" />
+
+
 In order to import the project into Godot theres a couple steps to do
 
 1. Git clone the repository
